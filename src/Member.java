@@ -23,4 +23,7 @@ public class Member extends User {
         super(name,contactInfo);
         borrowedBooksCount=0;
     }
+    public void returnBook(){
+        borrowedBooksCount--;
+    }
 }
